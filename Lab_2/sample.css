@@ -1,0 +1,75 @@
+BODY {
+    background: url(back.jpg);
+    width: 1800px;
+    <!--overflow: hidden;-->
+    font-family: Geneva, serif;
+    font-size: medium;
+    margin: 0 0 0 50px;
+}
+
+a {
+    color: white; font-size: x-large;
+    background: darkslateblue;
+}
+
+a.INFILE {
+    color: greenyellow
+}
+
+h1 {
+    color: limegreen;
+    font-size: 5em;
+    font-weight: bold
+}
+
+P {
+    color: ghostwhite; font-size: x-large;
+    font-family: Consolas, serif;
+    text-indent: 50px;
+}
+
+P.header {
+    font-style: italic;
+}
+
+h2 {
+    color: lavender; font-size: xx-large
+}
+
+hr {
+    color: green
+}
+
+img {
+    border: 5px groove lightsteelblue;
+}
+
+li
+{
+    list-style: none;
+    font-size: x-large;
+}
+
+li.main::before
+{
+    color: gold;
+    content: "*";
+    padding-right: 10px;
+}
+
+li.alternative
+{
+    color: gold;
+    list-style: inherit;
+}
+
+a#super_site
+{
+    background: white;
+}
+
+#super_site
+{
+    color: crimson;
+    background: none;
+}

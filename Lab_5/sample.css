@@ -1,0 +1,70 @@
+BODY
+{
+
+}
+
+a
+{
+    color: #3c763d;
+}
+
+p
+{
+    text-indent: 5%;
+}
+
+hr
+{
+    color: red;
+    background-color: red;
+    border: none;
+    height: 1px;
+}
+
+/*.box-shadow (@x: 0px, @y: 3px, @blur: 5px, @alpha: 0.5) {*/
+/*    -webkit-box-shadow: @x @y @blur rgba(0, 0, 0, @alpha);*/
+/*    -moz-box-shadow: @x @y @blur rgba(0, 0, 0, @alpha);*/
+/*    box-shadow: @x @y @blur rgba(0, 0, 0, @alpha);*/
+/*}*/
+
+/*#somediv {*/
+/*.box-shadow(5px, 5px, 6px, 0.3);*/
+/*}*/
+.list-group-item, .btn
+{
+    -webkit-box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.3);
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.3);
+}
+
+
+/*.transform (@rotate: 90deg, @scale: 1, @skew: 1deg, @translate: 10px) {*/
+/*    -webkit-transform: rotate(@rotate) scale(@scale) skew(@skew) translate(@translate);*/
+/*    -moz-transform: rotate(@rotate) scale(@scale) skew(@skew) translate(@translate);*/
+/*    -o-transform: rotate(@rotate) scale(@scale) skew(@skew) translate(@translate);*/
+/*    -ms-transform: rotate(@rotate) scale(@scale) skew(@skew) translate(@translate);*/
+/*    transform: rotate(@rotate) scale(@scale) skew(@skew) translate(@translate);*/
+/*}*/
+
+/*#someDiv {*/
+/*.transform(5deg, 0.5, 1deg, 0px);*/
+/*}*/
+#transform1
+{
+    -webkit-transform: rotate(5deg) scale(0.5) skew(1deg) translate(-400px);
+    -moz-transform: rotate(5deg) scale(0.5) skew(1deg) translate(-400px);
+    -o-transform: rotate(5deg) scale(0.5) skew(1deg) translate(-400px);
+    -ms-transform: rotate(5deg) scale(0.5) skew(1deg) translate(-400px);
+    transform: rotate(5deg) scale(0.5) skew(1deg) translate(-400px);
+    position: relative;
+}
+
+#transform2 {
+    -webkit-transform: rotate(-5deg) scale(0.5) skew(1deg) translate(400px);
+    -moz-transform: rotate(-5deg) scale(0.5) skew(1deg) translate(400px);
+    -o-transform: rotate(-5deg) scale(0.5) skew(1deg) translate(400px);
+    -ms-transform: rotate(-5deg) scale(0.5) skew(1deg) translate(400px);
+    transform: rotate(-5deg) scale(0.5) skew(1deg) translate(400px);
+    position: absolute;
+    right: 0;
+}

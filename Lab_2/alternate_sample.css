@@ -1,0 +1,73 @@
+BODY {
+    background: url(back.jpg);
+    width: 750px;
+    font-family: Geneva, serif;
+    font-size: small;
+}
+
+a {
+    color: white; font-size: medium;
+    background: darkslateblue;
+}
+
+a.INFILE {
+    color: greenyellow
+}
+
+h1 {
+    color: limegreen;
+    font-size: 3em;
+    font-weight: bold
+}
+
+P {
+    color: ghostwhite; font-size: small;
+    font-family: Consolas, serif;
+    text-indent: 50px;
+}
+
+P.header {
+    font-style: italic;
+}
+
+h2 {
+    color: lavender; font-size: x-large
+}
+
+hr {
+    color: green
+}
+
+img {
+    border: 5px groove lightsteelblue;
+    position: relative;
+}
+
+li
+{
+    list-style: none;
+    font-size: medium;
+}
+
+li.main::before
+{
+    color: gold;
+    content: "*";
+    padding-right: 10px;
+}
+
+li.alternative
+{
+    color: gold;
+    list-style: inherit;
+}
+
+a#super_site
+{
+    background: white;
+}
+#super_site
+{
+    color: crimson;
+    background: none;
+}
